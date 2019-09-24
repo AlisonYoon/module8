@@ -1,0 +1,30 @@
+To-do application architecture
+
+Task Model
+	* Add data to DB
+	* Get data from DB
+	
+	-Method GetIncompletedTasks
+	-Method GetCompletedTasks
+	-Method DeleteTask
+
+Task Controller
+	* Handle HTTP request
+	
+	-Method AddTask (with some kind of validation)
+	-Method TaskModel->AddTask (it passes the data that is sanitized, then it calls the method in Model)
+	-Rerun View
+	
+	* Complete Task
+	
+	-Some kind of validation
+	-Method TaskModel->CompleteTask (it gets the validated data and then calls the method in Model, the 	CompleteTask will update the DB)
+	-Update View 
+	
+	* Output Page
+	-Get completed task (that runs model's method of GetCompletedTasks)
+	-Get incompleted task (that runs model's method of GetIncompletedTasks)
+	-Output View with data (it takes the data by calling above methods and then pass them to View)
+	
+	
+/* What we did in our Cat App was not MVC way, it was Hydrator-Entity pattern */
