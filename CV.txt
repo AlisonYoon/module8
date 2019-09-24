@@ -1,0 +1,35 @@
+#Job Board
+>Through recruiters
+totalJobs
+Reed
+Indeed
+
+#recommended recruiting company
+SR2
+Adlib
+
+make a new email for applying for position (on gmail, you can create second account)
+aliyooncreative+jobs@gmail.com (gmail filters email for you)
+
+for longer links(ie. github repo links), use URL shortner (bitly)
+
+references from previous work
+
+
+#Tech test
+>remote with deadline for submit
+>white board (app architecture. ie. "how would you build a shopping cart for ecommerce" 
+- 'I would need **** classes, and they will have ***** methods in it that do ***** things.')
+>in person
+>verbal (if you don't know the definite answer, tell what you will do if you have a computer in front of you. "I know ~~~~~, but I don't know the specifics, so I would google ~~~~~~.")
+
+-it's ok to push back a little bit in case companies ask you to do something using some rare stacks.
+-if the test takes more than 10 hours(the time they're giving you to do it), it's normally a red flag.
+
+
+SAAS vs Web Agency
+
+SAAS - about code quality or accuracy, not about speed of delivery. code reviews, pair programming, testing, QA are involved. It's about doing things properly not quickly. a lot of bug fixing. you might be working with legacy code, technology they use tend to be older. 
+
+Agency - the faster you build, the better. generally code quality is not that high, but the speed of the delivery is high. tend to use modern frameworks. pair programming or testing is not as common. you get more chance to work with modern technology. you have more chance to do cool stuff for big name brands.
+some agencies care more about code quality.
