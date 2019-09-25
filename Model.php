@@ -20,3 +20,8 @@
 //I get settings out of DIC by (get('settings'))
 //in the dependencies.php file, I can use this for new PDO object.
 //most of the time, you just need one DB so it makes sense to have the DB connection inside DIC.
+
+//make Models directory inside src, create a class.
+//this Model class has dependency so now create a Factory for this inside Factories directory.
+
+
